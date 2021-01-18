@@ -78,7 +78,7 @@ const app = ((req, res) => {
 })
 
 const server = http.createServer(app)
-
-server.listen(1212, () => {
+const PORT = process.env.PORT || 1212
+server.listen(PORT, () => {
     console.log('server on')
 })
