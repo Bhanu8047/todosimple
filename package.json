@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "an application to save your todo's",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js -e js,html",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "todo",
+    "fullstack",
+    "funapp"
+  ],
+  "author": "Bhanu Pratap",
+  "license": "MIT"
+}
